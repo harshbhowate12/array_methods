@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice</title>
+</head>
+<body>
+    <h1>Practicing methods</h1>
+    <script>
+        const fruits=["mango","orange","grapes"];
+        console.log(fruits.length);
+        console.log(fruits);
+        fruits.push("banana");
+        console.log(fruits);
+        fruits.pop();
+        console.log(fruits);
+
+        //shift & unshift
+
+        fruits.unshift("apple");
+        console.log(fruits);
+        fruits.shift();
+        console.log(fruits);
+
+        //splice,join,reverse,sort,indexOf and includes
+
+        fruits.splice(0,0,"watermelon","lemon");
+        console.log(fruits);
+        const beingString=fruits.join();
+        console.log(beingString);
+        console.log(fruits.reverse());
+        console.log(fruits.sort());
+        console.log(fruits.indexOf("watermelon"));
+        console.log(fruits.includes("lemon"));
+    </script>
+</body>
+</html>
